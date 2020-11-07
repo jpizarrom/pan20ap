@@ -57,7 +57,7 @@ ds_name_folds = []
 
 #ds_name_folds += ['-k5-0', '-k5-1', '-k5-2', '-k5-3', '-k5-4']
 ds_name_folds += ['-k10-{}'.format(i) for i in range(10)]
-ds_name_folds += ['']
+# ds_name_folds += ['']
 print(ds_name_folds)
 
 for lang in langs:
